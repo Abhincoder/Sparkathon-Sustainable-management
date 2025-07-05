@@ -12,7 +12,7 @@ if script_dir not in sys.path:
 
 # Import functions from your custom modules
 from model_pipeline import create_features # We need this function to re-create features for new data
-from my_per_project.sparkathon.rag_system import build_rag_context_store, get_gemini_recommendations, make_single_prediction, mock_vector_store
+from rag_system import build_rag_context_store, get_gemini_recommendations, make_single_prediction, mock_vector_store
 
 # --- Load Models and Encoder ---
 @st.cache_resource
